@@ -32,7 +32,8 @@ let package = Package(
         .package(url: "https://github.com/NozeIO/swift-nio-irc-client.git", from: "0.7.2"),
         .package(url: "https://github.com/MaxDesiatov/XMLCoder.git", from: "0.11.1"),
         .package(url: "https://github.com/wfreitag/syllable-counter-swift.git", .revision("1c677a1bc7ffc96843e9cd7ca2a619c34e8158b0")),
-        .package(url: "https://github.com/nmdias/FeedKit.git", from: "9.1.2")
+        .package(url: "https://github.com/nmdias/FeedKit.git", from: "9.1.2"),
+        .package(url: "https://github.com/JCTec/iCalendarKit.git", .revision("58c1cbfad574b1b423ac4dedcb010f2c89e89b0b"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -106,6 +107,7 @@ let package = Package(
                 .product(name: "PerfectSysInfo", package: "PerfectSysInfo"),
                 .product(name: "SwiftPlot", package: "SwiftPlot"),
                 .product(name: "AGGRenderer", package: "SwiftPlot"),
+                .product(name: "iCalendarKit", package: "iCalendarKit"),
                 .target(name: "D2MessageIO"),
                 .target(name: "D2Permissions"),
                 .target(name: "D2Script"),

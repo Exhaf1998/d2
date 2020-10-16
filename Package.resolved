@@ -65,6 +65,15 @@
         }
       },
       {
+        "package": "iCalendarKit",
+        "repositoryURL": "https://github.com/JCTec/iCalendarKit.git",
+        "state": {
+          "branch": null,
+          "revision": "58c1cbfad574b1b423ac4dedcb010f2c89e89b0b",
+          "version": null
+        }
+      },
+      {
         "package": "LineNoise",
         "repositoryURL": "https://github.com/andybest/linenoise-swift.git",
         "state": {
